@@ -1,7 +1,8 @@
-@extends('layouts.test')
+@extends('layouts.test1')
 
 @section ('content')
     <h1>posts</h1>
+    <a href="/posts/create" class="btn btn-info">Create</a>
     
         @foreach($posts as $post)
             <div class="well">
